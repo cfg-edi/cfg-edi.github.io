@@ -46,12 +46,12 @@ strong {
 	margin-top: 30px;
 }
 
-.list-group-item:hover {
+.homepage .list-group-item:hover {
 	background: #f7f7f7;
 	cursor: pointer;
 }
 
-.list-group-item a {
+.homepage .list-group-item a {
 	display: block;
 }
 
