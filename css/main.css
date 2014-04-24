@@ -27,6 +27,11 @@ body {
 
 h1, h2, h3, h4 {
 	font-family: "exo 2";
+	font-weight: lighter;
+}
+
+h1 small { 
+	font-weight: lighter;
 }
 
 strong {
