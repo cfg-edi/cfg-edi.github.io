@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-@font-face { 
+@font-face {
     font-family: 'aleobold';
     src: url('../assets/fonts/Aleo-Bold-webfont.eot');
     src: url('../assets/fonts/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -25,11 +25,11 @@ body {
 	line-height: 1.5;
 }
 
-h1, h2, h3, h4 { 
+h1, h2, h3, h4 {
 	font-family: "exo 2";
 }
 
-strong { 
+strong {
     font-family: 'aleobold';
     font-weight: normal;
 }
@@ -41,7 +41,7 @@ strong {
 	margin-top: 30px;
 }
 
-.list-group-item:hover { 
+.list-group-item:hover {
 	background: #f7f7f7;
 	cursor: pointer;
 }
@@ -50,7 +50,7 @@ strong {
 	display: block;
 }
 
-#logo { 
+#logo {
 	width: 320px;
 }
 
@@ -112,8 +112,4 @@ span.big {
 	color: #fff;
 	background-color: #428bca;
 	border-color: #428bca;
-}
-
-.hidden {
-	display; none;
 }
