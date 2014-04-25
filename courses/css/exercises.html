@@ -49,11 +49,13 @@
             <h4 class="list-group-item-heading">Creating an external stylesheet</h4>
             <p class="list-group-item-text">To add an external stylesheet to your simple <code>index.html</code> file:</p>
           <ol>
-            <li> create a new file in the same folder called <code>style.css</code>.</li> 
-            <li>Add whatever CSS you fancy (something simple for now).</li> 
-            <li>Once you're finished, save it, and return to <code>index.html</code>.</li> 
-            <li>In the <code>head</code>, add your file using the following code snippet: <code>&lt;link rel="stylesheet" href="style.css"&gt;</code>.</li>
-            <li>Refresh your page, and see your new CSS in action!</li>
+            <li>Do not put any styles in your page's <code>&lt;head&gt;</code>. This is bad practice. Instead, we're going to add an external stylesheet (that just means that the stylesheet is elsewhere, and not in the <code>index.html</code> file). </li>
+            <li>So to add an external stylesheet, create a new file in the same folder as your <code>index.html</code>, and call it <code>style.css</code>.</li> 
+            <li>Add whatever CSS you fancy. Keep it simple for now; maybe a background color or some text alignments.</li> 
+            <li>Once you're finished, save <code>style.css</code>, and return to <code>index.html</code>.</li> 
+            <li>If you refresh <code>index.html</code> now, you'll see that nothing has happened. You need to link the stylesheet to it, so that <code>index.html</code> knows to look elsewhere to find CSS.</li>
+            <li>In the <code>&lt;head&gt;</code>, add your file using the following code snippet: <code>&lt;link rel="stylesheet" href="style.css"&gt;</code>.</li>
+            <li>Now you can refresh your page, and see your new CSS in action! Now, feel free to add more, and make your page look the way you want it to.</li>
             </ol>
         </li>
       </ul>
