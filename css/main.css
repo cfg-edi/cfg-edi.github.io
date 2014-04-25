@@ -119,9 +119,10 @@ span.big {
 	border-color: #428bca;
 }
 
-img#logo {
+body:not(.homepage) img#logo {
   margin-bottom: -90px;
 }
+
 
 .page-header h1 {
   text-align: right;
