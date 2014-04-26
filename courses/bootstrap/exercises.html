@@ -44,11 +44,29 @@
             <h4 class="list-group-item-heading">Add Bootstrap to your page</h4>
             <p class="list-group-item-text">To add an external stylesheet to your simple <code>index.html</code> file:</p>
           <ul>
-            <li>Make sure you've downloaded Bootstrap, and added the folders to your repository</li>
-            <li>Make sure you've linked the Bootstrap CSS in the <code>&lt;head&gt;</code> of your page.</li>
-            <li><code>&lt;link rel="stylesheet" href="/path/to/bootstrap.css"&gt;</code>. You want this to point to wherever your <code>bootstrap.css</code> file lives.</li>
-            <li>You'll want to start with trying to integrate the <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a> as shown in the slides, and other responsive elements you fancy. Refer to the <a href="sample.html">Sample Sites</a> here, and also to the <a href="http://getbootstrap.com/css" target="_blank">Bootstrap Documentation</a> for help.</li>
-            <li>This documentation can be very overwhelming, so please let us know if you get stuck!</li>
+            <li>Make sure you've downloaded Bootstrap, and added the <code>bootstrap.css</code> file to your website's css folder (in the same place as your <code>style.css</code>.</li>
+            <li>Link the Bootstrap CSS in the <code>&lt;head&gt;</code> of your page.</li>
+            <li><code>&lt;link rel="stylesheet" href="css/bootstrap.css"&gt;</code>. You want this to point to wherever your <code>bootstrap.css</code> file lives.</li>
+            <li>Also add the following to your page's <code>&lt;head&gt;</code>: <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code> This will ensure that your Bootstrap site renders correctly on phones and small screens.</li>
+            <li>You'll want to start with trying to integrate the <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap grid system</a> as shown in the slides, and other responsive elements you fancy. Refer to the <a href="sample.html">Sample Sites</a> here, and also to the <a href="http://getbootstrap.com/css" target="_blank">Bootstrap Documentation</a> for help.This documentation can be very overwhelming, so please let us know if you get stuck!</li>
+            <li>You can also try to copy and paste this piece of code, and tinker with it:
+            <pre>&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-sm-4"&gt;
+        &lt;h2&gt;Heading&lt;/h2&gt;
+        &lt;p&gt;Locavore swag PBR, YOLO sustainable shabby chic pork belly Austin jean shorts 3 wolf moon. PBR&B twee single-origin coffee Neutra, dreamcatcher artisan banjo High Life. You probably haven't heard of them organic brunch before they sold out, PBR&B aesthetic whatever actually.&lt;p&gt;
+      &lt;/div&gt;
+      &lt;div class="col-sm-4"&gt;
+        &lt;h2&gt;Heading&lt;/h2&gt;
+        &lt;p&gt;Locavore swag PBR, YOLO sustainable shabby chic pork belly Austin jean shorts 3 wolf moon. PBR&B twee single-origin coffee Neutra, dreamcatcher artisan banjo High Life. You probably haven't heard of them organic brunch before they sold out, PBR&B aesthetic whatever actually.&lt;p&gt;
+      &lt;/div&gt;
+      &lt;div class="col-sm-4"&gt;
+        &lt;h2&gt;Heading&lt;/h2&gt;
+        &lt;p&gt;Locavore swag PBR, YOLO sustainable shabby chic pork belly Austin jean shorts 3 wolf moon. PBR&B twee single-origin coffee Neutra, dreamcatcher artisan banjo High Life. You probably haven't heard of them organic brunch before they sold out, PBR&B aesthetic whatever actually.&lt;p&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+&lt;/div&gt;       </pre> This will create a row of three columns (placeholder text courtesy of <a href="http://hipsum.co" target="_blank">Hipster Ipsum</a>). Feel free to read the <a href="http://getbootstrap.com/css/#grid" target="_blank">grid docs</a> and try to add new column rows.</li>
+          
             </ul>
         </li>
     </ul>
