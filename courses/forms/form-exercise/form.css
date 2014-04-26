@@ -1,0 +1,50 @@
+iframe, form, #message {
+  display: none;
+}
+#content {
+  border-top: 1px dotted #ccc;
+  padding-top: 1em;
+}
+form#ss-form {
+  margin: auto;
+  width: 600px;
+}
+a#signup, input[type="submit"] {
+  display: inline-block;
+  color: white;
+  padding: 0.4em 1em;
+  font-size: 1.2em;
+  margin: 1em;
+  text-decoration: none;
+  font-family: helvetica;
+  border-radius: 6px;
+  border: none;
+}
+a#signup {
+  background: coral;
+}
+input[type="submit"]  {
+  background: green;
+  margin-left: 335px;
+}
+a#signup:hover {
+  background-color: orange;
+}
+div.row {
+  margin-bottom: 1em;
+}
+div.row label {
+  width: 100px;
+  display: inline-block;
+  font-family: helvetica;
+}
+div.row input:not([type="submit"]) {
+  padding: 0.6em;
+  width: 300px;
+  font-size: 1.2em;
+}
+div#message {
+  background: green;
+  padding: 1em;
+  color: white;
+}
