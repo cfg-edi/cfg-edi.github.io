@@ -52,21 +52,20 @@
           Create a new file in the form-exercise folder called 'form.js'.
         </li>
         <li>
-          Create a listener for click events on the #signup link that will toggle the #ss-form form.
-        </li>
-        <li>Ensure that the link is not being followed (i.e. remove the # from the URL)</li>
-        <li>
-          Create a variable called submitted and set it to false.
+          Create a listener for click events on the #signup link that will toggle() the #ss-form form. HINT: toggle will show an element if it is currently being hidden and hide it if it is currently being shown.
         </li>
         <li>
-          Create a listener for submit events on the #ss-form form that will set the submitted variable to true.
+          Create a variable called "submitted" and set it to false.
         </li>
         <li>
-          Create a listener for load events on the #hidden-iframe that, if submitted is true will:
+          Create a listener for "submit" events on the #ss-form form that will set the submitted variable to true.
+        </li>
+        <li>
+          Create a listener for "load" events on the iframe element that, if submitted is true, will:
           <ul>
-            <li>sets the text on div#message to "Signed up successfully"</li>
-            <li>fades in div#message</li>
-            <li>fades out div#message over 5 seconds</li>
+            <li>set the text on div#message to "Signed up successfully"</li>
+            <li>fade in div#message HINT: check the jQuery docs</li>
+            <li>fade out div#message over 5 seconds HINT: fadeOut() takes an argument to represent the number of milliseconds the fade out should take. There are 1000 milliseconds in a second.</li>
             <li>hide the form</li>
           </ul>
         </li>
