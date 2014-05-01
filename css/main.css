@@ -56,7 +56,11 @@ strong {
 }
 
 #logo {
-	width: 320px;
+	width: 240px;
+}
+
+.page-header h1 {
+  text-align: right;
 }
 
 span.big {
@@ -119,6 +123,10 @@ span.big {
 	border-color: #428bca;
 }
 
+body:not(.homepage) img#logo {
+  margin-bottom: -90px;
+}
+
 @media screen and (max-width:767px) {
 	.page-header {
 		margin-top: 0;
@@ -139,9 +147,10 @@ span.big {
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 		border-bottom-color: #ddd;
 	}
+	body:not(.homepage) img#logo {
+	  margin-bottom: -10px;
+	}
+	.page-header h1 {
+		text-align: left;
+	}
 }
-
-body:not(.homepage) img#logo {
-  margin-bottom: -90px;
-}
-
