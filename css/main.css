@@ -56,7 +56,11 @@ strong {
 }
 
 #logo {
-	width: 320px;
+	width: 240px;
+}
+
+.page-header h1 {
+  text-align: right;
 }
 
 span.big {
@@ -123,7 +127,30 @@ body:not(.homepage) img#logo {
   margin-bottom: -90px;
 }
 
-
-.page-header h1 {
-  text-align: right;
+@media screen and (max-width:767px) {
+	.page-header {
+		margin-top: 0;
+	} 
+	.page-header small {
+		display: block;
+		margin-top: 8px;
+	}
+	.nav-tabs {
+		border-bottom: none;
+	}
+	.nav-tabs > li > a {
+		border-radius: 4px;
+	}
+	.nav-tabs > li > a:hover {
+		border-color: transparent;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		border-bottom-color: #ddd;
+	}
+	body:not(.homepage) img#logo {
+	  margin-bottom: -10px;
+	}
+	.page-header h1 {
+		text-align: left;
+	}
 }
