@@ -118,3 +118,25 @@ span.big {
 	background-color: #428bca;
 	border-color: #428bca;
 }
+
+@media screen and (max-width:767px) {
+	.page-header {
+		margin-top: 0;
+	} 
+	.page-header small {
+		display: block;
+		margin-top: 8px;
+	}
+	.nav-tabs {
+		border-bottom: none;
+	}
+	.nav-tabs > li > a {
+		border-radius: 4px;
+	}
+	.nav-tabs > li > a:hover {
+		border-color: transparent;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		border-bottom-color: #ddd;
+	}
+}
