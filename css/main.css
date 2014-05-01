@@ -30,7 +30,7 @@ h1, h2, h3, h4 {
 	font-weight: lighter;
 }
 
-h1 small { 
+h1 small {
 	font-weight: lighter;
 }
 
@@ -140,3 +140,8 @@ span.big {
 		border-bottom-color: #ddd;
 	}
 }
+
+body:not(.homepage) img#logo {
+  margin-bottom: -90px;
+}
+
