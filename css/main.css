@@ -63,6 +63,24 @@ strong {
   text-align: right;
 }
 
+.question-list { 
+	margin: 0 0 40px;
+	padding: 0 15px;
+}
+
+.question-list li {
+	margin-bottom: 5px;
+}
+
+.question-answers .list-group-item-heading {
+	margin-bottom: 10px;
+	color: #C92443;
+}
+
+.question-answers .list-group-item-text {
+	line-height: 1.5;
+}
+
 span.big {
 	vertical-align: bottom;
 	line-height: 60px;
